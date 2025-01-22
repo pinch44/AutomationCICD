@@ -8,6 +8,7 @@ public class ExtentReporterNG {
 	
 	public static ExtentReports getReportObject()
 	{
+		//test CHP commentaire
 		String path =System.getProperty("user.dir")+"//reports//index.html";
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setReportName("Web Automation Results");
